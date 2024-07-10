@@ -1,0 +1,51 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #1DB954;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.songs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song-element {
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommend-button {
+    background-color: #1DB954;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.recommend-button:hover {
+    background-color: #1ed760;
+}
